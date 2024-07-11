@@ -5,7 +5,6 @@ import { DocController } from './controllers/doc.controller';
 import { DocService } from './services/doc.service';
 import { prisma } from './config/prisma';
 @Module({
-  imports: [],
   controllers: [AppController, DocController],
   providers: [prisma, AppService, DocService],
 })
