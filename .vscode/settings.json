@@ -1,6 +1,6 @@
 {
   "material-icon-theme.files.associations": {
-    "*.service.ts": "typescript",
-    "*.module.ts": "typescript"
+    "*.module.ts": "typescript",
+    "*.service.ts": "typescript"
   }
 }
