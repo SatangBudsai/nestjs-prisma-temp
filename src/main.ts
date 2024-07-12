@@ -16,7 +16,7 @@ async function bootstrap() {
   app.enableCors(options);
 
   const config = new DocumentBuilder()
-    .setDescription('The cats API description')
+    .setDescription('The NestJS API description')
     .setVersion('1.0')
     .build();
   const document = SwaggerModule.createDocument(app, config);

@@ -4,4 +4,8 @@ import { prisma } from '../config/prisma';
 @Injectable()
 export class DocService {
   constructor(private prisma: prisma) {}
+
+  getHello(): string {
+    return 'Hello World!';
+  }
 }
